@@ -8,10 +8,11 @@ int len(char input[]){
     }
     return count;
 }
+
 int main()
 {
     char a[10];
-    cin>>a;
+    cin.getline(a,6,'x');
     cout<<a<<endl;
     cout<<len(a);
     return 0;
